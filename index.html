@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300&display=swap" rel="stylesheet">
-    <title>Portfolio</title>
+    <title>Denis Novik</title>
 </head>
 <body>
     <header class="header">
-        <div class="container">
+        <section class="container">
             <nav class="nav">
                 <ul class="menu">
                     <li class="menu__list"> <a href="" class="menu__link">Home</a></li>
@@ -24,81 +24,83 @@
                 </ul>
                 <hr>
             </nav>
-            <div class="header__wrapper">
+            <section class="header__wrapper">
                 <h2 class="header__title">Denis 
                     Novik</h2>
                 <p class="header__text">UX | UI designer
                     24 years old, Minsk</p>
                 <p class="header__lang">RU | ENG </p>
-            </div>
-            <img src="img/Group 2.1.png" alt="" class="header__img">
-        </div>
+            </section>
+            <img src="img/Group 2.1.png" alt="Denis Novik" class="header__img">
+        </section>
     </header>
-    <section class="about">
-        <div class="container">
-            <h3 class="about__title">About me</h3>
-            <div class="about__wrapper">
-            <p class="about__text">Hi, I'm Denis – UX/UI designer from Minsk. 
-                I'm interested in design and everything connected with it.</p>
-            <p class="about__text">I'm studying at courses "Web and mobile design 
-                interfaces" in IT-Academy.</p>
-            <p class="about__text">Ready to implement excellent projects
-                with wonderful people.</p>
+    <main>
+        <section class="about">
+            <div class="container">
+                <h3 class="about__title">About me</h3>
+                <div class="about__wrapper">
+                <p class="about__text">Hi, I'm Denis – UX/UI designer from Minsk. 
+                    I'm interested in design and everything connected with it.</p>
+                <p class="about__text">I'm studying at courses "Web and mobile design 
+                    interfaces" in IT-Academy.</p>
+                <p class="about__text">Ready to implement excellent projects
+                    with wonderful people.</p>
+                </div>
             </div>
-        </div>
-    </section>
-    <section class="skills">
-        <div class="container">
-            <h3 class="skills__title">Skills</h3>
-            <h4 class="skills__suptitle">I work in such programs as</h4>
-            <div class="skills__items">
-                <div class="skills__item">
-                    <img src="img/skills/PS.png" alt="" class="item__img">
-                    <p class="item__text">Adobe
-                        Photoshop</p>
-                    <img src="img/skills/ps-star.png" alt="" class="item__skill">
-                </div>
-                <div class="skills__item">
-                    <img src="img/skills/AI.png" alt="" class="item__img">
-                    <p class="item__text">Adobe 
-                        Illustrator</p>
-                    <img src="img/skills/ai-star.png" alt="" class="item__skill">
-                </div>
-                <div class="skills__item">
-                    <img src="img/skills/AE.png" alt="" class="item__img">
-                    <p class="item__text">Adobe 
-                        After Effects</p>
-                    <img src="img/skills/ps-star.png" alt="" class="item__skill">
-                </div>
-                <div class="skills__item">
-                    <img src="img/skills/Fi.png" alt="" class="item__img">
-                    <p class="item__text">Figma</p>
-                    <img src="img/skills/ps-star.png" alt="" class="item__skill">
-                </div>
-                
+        </section>
+        <section class="skills">
+            <div class="container">
+                <h3 class="skills__title">Skills</h3>
+                <h4 class="skills__suptitle">I work in such programs as</h4>
+                <ul class="skills__items">
+                    <li class="skills__item">
+                        <img src="img/skills/PS.png" alt="" class="item__img">
+                        <p class="item__text">Adobe
+                            Photoshop</p>
+                        <img src="img/skills/ps-star.png" alt="" class="item__skill">
+                    </li>
+                    <li class="skills__item">
+                        <img src="img/skills/AI.png" alt="" class="item__img">
+                        <p class="item__text">Adobe 
+                            Illustrator</p>
+                        <img src="img/skills/ai-star.png" alt="" class="item__skill">
+                    </li>
+                    <li class="skills__item">
+                        <img src="img/skills/AE.png" alt="" class="item__img">
+                        <p class="item__text">Adobe 
+                            After Effects</p>
+                        <img src="img/skills/ps-star.png" alt="" class="item__skill">
+                    </li>
+                    <li class="skills__item">
+                        <img src="img/skills/Fi.png" alt="" class="item__img">
+                        <p class="item__text">Figma</p>
+                        <img src="img/skills/ps-star.png" alt="" class="item__skill">
+                    </li>
+                    
+                </ul>
             </div>
-        </div>
-    </section>
-    <div class="portfolio">
-        <div class="container">
-            <h3 class="portfolio__title">Portfolio</h3>
-            <img src="img/skills/portfolio-1.png" alt="" class="portfolio__img">
-            <a href="#" class="portfolio__link">Online fashion store - Homepage</a>
-            <img src="img/skills/portfoli-2.png" alt="" class="portfolio__img">
-            <a href="#" class="portfolio__link">Reebok Store - Concept</a>
-            <img src="img/skills/portfolio-3.png" alt="" class="portfolio__img">
-            <a href="#" class="portfolio__link">Braun Landing Page - Concept</a>
-        </div>
-    </div>
-    <section class="contacts">
-        <div class="container">
-            <h3 class="contacts__title">Contacts</h3>
-            <p class="contacts__text">Want to know more or just chat? 
-                You are welcome!</p>
-            <button class="contacts__btn">Send message</button>
-        </div>
-    </section>
-    <div class="footer">
+        </section>
+        <section class="portfolio">
+            <div class="container">
+                <h3 class="portfolio__title">Portfolio</h3>
+                <img src="img/skills/portfolio-1.png" alt="" class="portfolio__img">
+                <a href="#" class="portfolio__link">Online fashion store - Homepage</a>
+                <img src="img/skills/portfoli-2.png" alt="" class="portfolio__img">
+                <a href="#" class="portfolio__link">Reebok Store - Concept</a>
+                <img src="img/skills/portfolio-3.png" alt="" class="portfolio__img">
+                <a href="#" class="portfolio__link">Braun Landing Page - Concept</a>
+            </div>
+        </section>
+        <section class="contacts">
+            <div class="container">
+                <h3 class="contacts__title">Contacts</h3>
+                <p class="contacts__text">Want to know more or just chat? 
+                    You are welcome!</p>
+                <button class="contacts__btn">Send message</button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
         <div class="container">
             <ul class="footer__list">
                 <li class="footer__social"><a href="#" class="footer__link"><img src="img/social/in.png" alt="" class="social__img"></a></li>
@@ -109,6 +111,6 @@
             <p class="footer__copyright">Like me on <br>
                 LinkedIn, Instagram, Behance, Dribble</p>
         </div>
-    </div>
+    </footer>
 </body>
 </html>
